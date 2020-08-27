@@ -14,7 +14,7 @@ class List extends React.Component {
   }
   
   static defaultProps = {
-    children: <p>I can do all the things!!!</p>,
+    description: settings.defaultListDescription,
     heroUrlIMG: <p>Img got lost somewhere :( </p>,
   }
 
