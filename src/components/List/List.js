@@ -24,6 +24,22 @@ class List extends React.Component {
     heroUrlIMG: <p>Img got lost somewhere :( </p>,
   }
 
+  addColumn(title){
+    this.setState(state => (
+      {
+        columns: [
+          ...state.columns,
+          {
+            key: state.columns.length ? state.columns[state.columns.length-1].key+1 : 0,
+            title,
+            icon: 'list-alt',
+            cards: []
+          }
+        ]
+      }
+    ));
+  }
+
   render() {
     return (
       <section className={styles.component}>
