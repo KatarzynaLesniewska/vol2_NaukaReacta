@@ -3,6 +3,7 @@ import styles from './Column.scss';
 import PropTypes from 'prop-types';
 import {settings} from '../../data/dataStore'; 
 import Creator from '../Creator/Creator.js';
+import Card from '../Card/Card.js';
 
 
 class Column extends React.Component {
