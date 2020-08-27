@@ -11,6 +11,22 @@ class Column extends React.Component {
         title: PropTypes.PropTypes.text,
     }
 
+    addCard(title){
+        this.setState(state => (
+          {
+            cards: [
+              ...state.cards,
+              {
+                key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
+                title,
+                icon: 'list-alt',
+                cards: []
+              }
+            ]
+          }
+        ));
+      }
+
   render() {
     return (
         <section className={styles.component}>
