@@ -8,7 +8,8 @@ import {settings} from '../../data/dataStore';
 class List extends React.Component {
   static propTypes = {
     title: PropTypes.node.isRequired,
-    children: PropTypes.node,
+    description: PropTypes.node,
+    columns: PropTypes.array,
     heroUrlIMG: PropTypes.text,
   }
   
