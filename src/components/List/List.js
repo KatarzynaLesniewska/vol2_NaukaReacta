@@ -10,7 +10,7 @@ class List extends React.Component {
     title: PropTypes.node.isRequired,
     description: PropTypes.node,
     columns: PropTypes.array,
-    heroUrlIMG: PropTypes.text,
+    heroUrlIMG: PropTypes.string,
   }
   
   static defaultProps = {
