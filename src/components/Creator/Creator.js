@@ -6,8 +6,7 @@ import PropTypes from 'prop-types';
 class Creator extends React.Component {
   static propTypes = {
     text: PropTypes.string,
-    action: PropTypes.node,
-
+    action: PropTypes.func,
   }
 
   static defaultProps = {
