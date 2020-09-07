@@ -1,0 +1,51 @@
+* [33m7d99483[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Install ESLint
+* [33m102e89f[m Add Icon cmpnnt to Column
+* [33mad55f85[m Creat icon folder nad add new Icon.js file
+* [33m351a46c[m Debug hero img again by swapping heroImgURL with heroUrlIMG
+* [33ma1f54d8[m Debug image in dataStore, swap with heroImgURL
+* [33mcf1fa03[m Debug title: PropTypes.PropTypes.text, to .string, in Column and Card
+* [33m28b5461[m Import card to Columns
+* [33m0ef3a94[m Add this.state.cards.map
+* [33med88267[m Debug Creator by swapping cardCreatorText
+* [33m4ef1b1d[m Add <Creator> and import {settings{ and Creator to Column
+* [33ma26b4a9[m Add addCard method to Column
+* [33m977866d[m Add state to column
+* [33mcf52145[m Creat card component
+* [33mbf8d5ce[m Add addColumn(title) function with method this.setState to List, to add new columns
+* [33meacd5be[m Import Creator to List and add new <div> to JSX List with <Creator text, action>
+* [33m97476f1[m Add 2 new files Creator.js and Button.js
+* [33m1d97772[m Swap 3x<Cloumn> in List with 1x<Column> 'looped' with this.state.columns.map method
+* [33mc0a889c[m Add the definition of state to List component. Col ums are state in List (their content will change)
+* [33me7f6b36[m Import ReactHtmlParser from 'react-html-parser'; to  List & parse {this.props.description} ->  {ReactHtmlParser(this.props.description)}
+* [33m442ebd9[m Debug heroImgURL: PropTypes.text, to .string, in Hero.propTypes = {} def in Hero
+* [33m48f2cbd[m Debug heroUrlIMG: PropTypes.text, to .string, in static propTypes def in List
+* [33mdc49dc0[m Pass props.titleText as an argument to ReactHtmlPa rser in <h2> in Hero to parese it
+* [33mfecf44d[m Install: npm install --save react-html-parser & import ReactHtmlParser from 'react-html-parser'; in Hero to change string <sup> into HTML in <h2> Hero
+* [33m7c40395[m Swap {this.props.children} with {this.props.description} in List in <Hero> in JSX code
+* [33m651a47e[m Swap children with description in static defaultProps in List
+* [33m3511fe0[m Swap children with description & columns in definition static propTypes in List
+* [33m93fc6df[m Import {settings} from '../../data/dataStore';
+* [33mef39312[m Use list Data from dataStore in <List {...listData} /> in App
+* [33mcccaa91[m Imoprt {pageContents} from dataStore to App & swap them to {pageContents.title} {pageContents.subtitle}
+* [33m7dc8039[m Change the text content
+* [33m5785c11[m Add 3x <Column> in List cmpnnt with different titles, pass title props to Column.js, define poprs's types in Clmn.js
+* [33mf6177c1[m Create Column.js class Clmn, render section & h3, import react, styles & export Clmn
+* [33md1d2b09[m Pass img's url frm App trough List to Hero& define types of these props
+* [33m149fc06[m Debug in List.js : Proptypes vs propTypes
+* [33med3c67b[m Add defonition of static default children prop in List component
+* [33mfeb3dfb[m Add .isRequired to the definition of title prop type in List and Hero
+* [33m5ca306d[m Add propType definition of prop titleText in Hero
+* [33m8839e53[m Install propTpes & define them in List cmpnnt at the begining of List class
+* [33m3bb9f0c[m Add child p <List><p></p></List> in App & this. prop.chidren in <div> in List  cmpnnt
+* [33m98b1919[m Add key to JSX object - each JSX objct MUST have got a unic key in an arrey
+* [33md656723[m Add an arrey <List title={ ['text', JSX ] } in App
+* [33mf941091[m Check if prop works
+* [33mab267f6[m Passing down a prop frm App trght List to Hero (class component)
+* [33m8878070[m Create Hero cmpnnt, render in List
+* [33md369319[m Create file& List component, import to App
+* [33m836027e[m Add className={styles.title/subtitle} h1 h2 in App
+* [33md41ca54[m Imprt {styles.component} in App in main className=
+* [33m7095682[m They said to remove dist
+* [33m40c4603[m Install, start mpn & add package-lock.json
+* [33mfd97058[m[33m ([m[1;33mtag: v1[m[33m)[m Add files to project
+* [33mff30c46[m Initial commit
