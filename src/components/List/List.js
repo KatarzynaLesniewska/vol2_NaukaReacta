@@ -12,20 +12,20 @@ class List extends React.Component {
     title: PropTypes.node.isRequired,
     description: PropTypes.node,
     columns: PropTypes.array,
-    heroUrlIMG: PropTypes.string,
+    image: PropTypes.string,
   }
   
   static defaultProps = {
     description: settings.defaultListDescription,
-    heroUrlIMG: <p>Img got lost somewhere :( </p>,
+    image: <p>Img got lost somewhere :( </p>,
   }
 
   render() {
-    const {title, heroUrlIMG, description} = this.props;
+    const {title, image, description} = this.props;
 
     return (
       <section className={styles.component}>
-        <Hero titleText={title} heroImgURL={heroUrlIMG} />
+        <Hero titleText={title} heroImgURL={image} />
         <div className={styles.description}>
           {ReactHtmlParser(description)}
         </div>
