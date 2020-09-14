@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import List from './List';
-import getColumnsForList from '../redux/columnsRedux.js';
-import createActionAddColumn from '../redux/columnsRedux.js';
+import {getColumnsForList, createActionAddColumn} from '../../redux/columnsRedux.js';
+//import createActionAddColumn from '../redux/columnsRedux.js';
 //import getColumnsForList from 'src/redux/columnsRedux.js';
 //import createActionAddColumn from 'src/redux/columnsRedux.js';
 

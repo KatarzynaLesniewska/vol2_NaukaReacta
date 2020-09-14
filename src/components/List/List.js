@@ -4,8 +4,9 @@ import Hero from '../Hero/Hero.js';
 import PropTypes from 'prop-types';
 import {settings} from '../../data/dataStore'; 
 import ReactHtmlParser from 'react-html-parser';
-import Column from '../../Column/ColumnContainer.js';
+import Column from '../Column/ColumnContainer.js';
 import Creator from '../Creator/Creator.js';
+//import Column from '../../Column/ColumnContainer.js';
 //import Column from './components/Column/ColumnContainer.js';
 
 class List extends React.Component {
