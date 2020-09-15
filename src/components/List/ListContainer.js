@@ -4,7 +4,6 @@ import {getColumnsForList, createActionAddColumn} from '../../redux/columnsRedux
 //import createActionAddColumn from '../redux/columnsRedux.js';
 //import getColumnsForList from 'src/redux/columnsRedux.js';
 //import createActionAddColumn from 'src/redux/columnsRedux.js';
-
 {/*
 export const getColumnsForList = ({columns}, listId) => columns.filter(column => column.listId == listId);
 */}
