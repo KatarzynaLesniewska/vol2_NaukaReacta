@@ -1,4 +1,3 @@
-{/* 
 import shortid from 'shortid';
 
 // selectors
@@ -23,5 +22,3 @@ export default function reducer(state = [], action = {}) {
       return state;
   }
 } 
-
-*/}
