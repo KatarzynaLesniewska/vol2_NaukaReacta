@@ -8,7 +8,7 @@ const reducerName = 'cards';
 const createActionName = name => `app/${reducerName}/${name}`;
 
 // action types
-export const ADD_COLUMN = createActionName('ADD_CARD');
+export const ADD_CARD = createActionName('ADD_CARD');
 
 // action creators
 export const createActionAddCard = payload => ({ payload: { ...payload, id: shortid.generate() }, type: ADD_CARD });
