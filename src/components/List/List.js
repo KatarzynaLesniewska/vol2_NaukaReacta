@@ -6,6 +6,7 @@ import {settings} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 import Column from '../Column/ColumnContainer.js';
 import Creator from '../Creator/Creator.js';
+import Container from '../Container/Container';
 //import Column from '../../Column/ColumnContainer.js';
 //import Column from './components/Column/ColumnContainer.js';
 
@@ -28,6 +29,7 @@ class List extends React.Component {
 
     return (
       <section className={styles.component}>
+        <Container></Container>
         <Hero titleText={title} heroImgURL={image} />
         <div className={styles.description}>
           {ReactHtmlParser(description)}
