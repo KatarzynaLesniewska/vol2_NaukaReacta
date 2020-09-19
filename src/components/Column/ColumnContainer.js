@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import Column from './Column';
-import {getCardsForColumn, createActionAddCard} from '../../redux/columnsRedux.js';
+import {getCardsForColumn, createActionAddCard} from '../../redux/cardsRedux.js';
 
 {/*
 export const getCardsForColumn = ({cards}, columnId) => cards.filter(card => card.columnId == columnId);
