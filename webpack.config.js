@@ -10,6 +10,9 @@ const baseConfig = () => ({
     publicPath: '/',
     filename: 'scripts_bundle.js',
   },
+  devServer: {
+    historyApiFallback: true,
+  },
   module: {
     rules: [
       {
