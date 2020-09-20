@@ -1,14 +1,17 @@
 import React from 'react';
 import Home from '../Home/HomeContainer';
 import Info from '../Info/Info';
+import MainLayout from '../MainLayout/MainLayout';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 const App = () => (
   <BrowserRouter>
-    <Switch>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/info' component={Info} />
-    </Switch>
+    <MainLayout>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/info' component={Info} />
+      </Switch>
+    </MainLayout>
   </BrowserRouter>
 );
 
