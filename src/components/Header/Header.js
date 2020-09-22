@@ -14,8 +14,8 @@ class Header extends React.Component {
               <Icon name="fab fa-500px"/>
             </Link>
             <nav>
-              <NavLink exact to='/'>Home</NavLink>
-              <NavLink exact to='/info'>Info</NavLink>
+              <NavLink exact to='/' activeClassName='active'>Home</NavLink>
+              <NavLink exact to='/info' activeClassName='active'>Info</NavLink>
             </nav>
           </div>
         </Container>
