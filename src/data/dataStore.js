@@ -12,6 +12,7 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  iconForHeader: 'fab fa-500px',
 };
 
 export const pageContents = {
